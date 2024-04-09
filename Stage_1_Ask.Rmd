@@ -11,14 +11,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Notes created in R Markdown
 
-Please let make stage 1
+#### Case Study : How Can a Wellness Technology
+#### Company Play It Smart?
 
-## Including Plots
-
-You can also embed plots, for example:
+<p>Project derived by **Google**</p>
+Small description of my company:
+<p>Welcome to the **Bellabeat** data analysis case study! In this case study, you will perform many real-world tasks of a junior data
+analyst. You will imagine you are working for **Bellabeat**, a high-tech manufacturer of health-focused products for women, and
+meet different characters and team members.</p>
 
 ```{r pressure, echo=FALSE}
 plot(pressure)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
