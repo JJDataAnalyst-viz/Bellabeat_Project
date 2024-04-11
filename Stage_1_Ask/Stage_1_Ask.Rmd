@@ -8,8 +8,12 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+### ANNOTATE If  you want open this as HTML report pls use copy path and then paste it in https://htmlpreview.github.io/
+
+
 
 ## Notes created in R Markdown
+
 
 #### Case Study : How Can a Wellness Technology
 #### Company Play It Smart?
@@ -111,6 +115,8 @@ My project will include then:
 <li>**Supporting visualizations and key findings**</li>
 <li>**Your top high-level content recommendations based on your analysis**</li>
 </ol>
+
+
 ```{r pressure, echo=FALSE}
 plot(pressure)
 ```
