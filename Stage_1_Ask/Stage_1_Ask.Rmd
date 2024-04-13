@@ -1,3 +1,4 @@
+
 ---
 title: 'Stage 1: Ask'
 author: "Jakub Jędrych"
@@ -8,19 +9,19 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-### Annotate If  you want open this as HTML report pls use copy path and then paste it in https://htmlpreview.github.io/
+
+![](https://miro.medium.com/v2/resize:fit:1400/1*SjEGKrjDp7skk4URhzW5Nw.png)
+
+#### Annotate If  you want open this as HTML report pls use copy path and then paste it in https://htmlpreview.github.io/
+#### Notes created in R Markdown
 
 
-
-## Notes created in R Markdown
-
-
-#### Case Study : How Can a Wellness Technology
-#### Company Play It Smart?
+## Case Study : How Can a Wellness Technology
+## Company Play It Smart?
 <br>
 <p>Project derived by **Google**</p>
 Small description of my company:
-<p>Welcome to the **Bellabeat** data analysis case study! In this case study, you will perform many real-world tasks of a junior data
+<p>Welcome to the [**Bellabeat**](https://bellabeat.com/) data analysis case study! In this case study, you will perform many real-world tasks of a junior data
 analyst. You will imagine you are working for **Bellabeat**, a high-tech manufacturer of health-focused products for women, and
 meet different characters and team members.</p>
 
@@ -28,7 +29,7 @@ meet different characters and team members.</p>
 ## Scenario
 You are a junior data analyst working on the marketing analyst team at **Bellabeat**, a high-tech manufacturer of health-focused
 products for women. **Bellabeat** is a successful small company, but they have the potential to become a larger player in the
-global smart device market. Urška Sršen, cofounder and Chief Creative Officer of **Bellabeat**, believes that analyzing smart
+global [smart device](https://en.wikipedia.org/wiki/Smart_device) market. Urška Sršen, cofounder and Chief Creative Officer of **Bellabeat**, believes that analyzing smart
 device fitness data could help unlock new growth opportunities for the company. You have been asked to focus on one of
 **Bellabeat’s** products and analyze smart device data to gain insight into how consumers are using their smart devices. The
 insights you discover will then help guide marketing strategy for the company. You will present your analysis to the **Bellabeat**
@@ -48,24 +49,24 @@ Bellabeat achieve them.</li>
 </ul>
 <h3> Products </h3>
 <ul>
-<li> Bellabeat app: The Bellabeat app provides users with health data related to their activity, sleep, stress,
+<li> **Bellabeat app**: The Bellabeat app provides users with health data related to their activity, sleep, stress,
 menstrual cycle, and mindfulness habits. This data can help users better understand their current habits and
 make healthy decisions. The Bellabeat app connects to their line of smart wellness products.</li>
-<li> Leaf: Bellabeat’s classic wellness tracker can be worn as a bracelet, necklace, or clip. The Leaf tracker connects
+<li> **Leaf**: Bellabeat’s classic wellness tracker can be worn as a bracelet, necklace, or clip. The Leaf tracker connects
 to the Bellabeat app to track activity, sleep, and stress.</li>
-<li>Time: This wellness watch combines the timeless look of a classic timepiece with smart technology to track user
+<li>**Time**: This wellness watch combines the timeless look of a classic timepiece with smart technology to track user
 activity, sleep, and stress. The Time watch connects to the Bellabeat app to provide you with insights into your
 daily wellness.</li>
-<li>Spring: This is a water bottle that tracks daily water intake using smart technology to ensure that you are
+<li>**Spring**: This is a water bottle that tracks daily water intake using smart technology to ensure that you are
 appropriately hydrated throughout the day. The Spring bottle connects to the Bellabeat app to track your
 hydration levels.</li>
-<li> Bellabeat membership: Bellabeat also offers a subscription-based membership program for users.
+<li> **Bellabeat membership**: Bellabeat also offers a subscription-based membership program for users.
 Membership gives users 24/7 access to fully personalized guidance on nutrition, activity, sleep, health and
 beauty, and mindfulness based on their lifestyle and goals.</li>
 
 ## About the company
 
-***Urška Sršen*** and ***Sando Mur*** founded *Bellabeat*, a high-tech company that manufactures health-focused smart products.
+***Urška Sršen*** and ***Sando Mur*** founded **Bellabeat**, a high-tech company that manufactures health-focused smart products.
 **Sršen** used her background as an artist to develop beautifully designed technology that informs and inspires women around
 the world. Collecting data on activity, sleep, stress, and reproductive health has allowed **Bellabeat** to empower women with
 knowledge about their own health and habits. Since it was founded in 2013, **Bellabeat** has grown rapidly and quickly positioned
@@ -90,10 +91,23 @@ To gain some insights in project we need to answer for some questions
 (I've always saying on these questions as top 5):
 <ul>
 <li>**Why this problem is so important?**</li>
+*Our insights from  smart device usage data will help us better understand and find some trends performed by customers. This also help us in implementing this trends to one of 
+our devices in Bellabeat. This project will help to take DDDM and ensure company where 
+they need to create the primarly goals by watching trends though my storytelling.*
 <li>**Who are the most influenced by resolving this problem?**</li>
+*Urška Sršen,Sando Mur are our top stakeholder in this project because they are cofunder 
+of the company and gave us this job*
 <li>**Do we have enough data to make an analysis?**</li>
+*My stakeholder suggest to use public data that explores smart device users’ daily habits.
+Data resides in [Kaggle](https://www.kaggle.com/) site for data science.
+[FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit) (CC0: Public Domain, dataset made available through [Mobius](https://www.kaggle.com/arashnic)): This Kaggle data set
+contains personal fitness tracker from thirty fitbit users. Thirty eligible Fitbit users consented to the submission of
+personal tracker data, including minute-level output for physical activity, heart rate, and sleep monitoring. It includes
+information about daily activity, steps, and heart rate that can be used to explore users’ habits.*
 <li>**Where our project will end?**</li>
+*I prefer to end this project till one week*
 <li>**What if results won't be as good as we used to think it be?**</li>
+*We can gather more information/data through other companies using smart devices and prepare another analysis or we can implement these trends to smart devices as much as we gained insights from the data*
 </ul>
 So trivial but also so important questions in every project.
 <p>**Firstly** and **mostly** focus on problem then on method and what will be created after stage of share(thinking about final for example: method of sentimental analysis but not about the main problem is always not a good way to start each project)</p>
@@ -105,20 +119,26 @@ For this project there is also 3 other's questions as well:
 <li>**How could these trends help influence Bellabeat marketing strategy?**</li>
 </ul>
 
+But these questions find answers later on. We need to prepare,process and analyze data and then we can create vizualization for stakeholders need and create comprehensive storytelling with our insights about our data.
+
 
 My project will include then:
 <ol>
 <li>**A clear summary of the business task**</li>
 <li>**A description of all data sources used**</li>
 <li>**Documentation of any cleaning or manipulation of data**</li>
-<li>**A summary of your analysis**</li>
+<li>**A summary of my analysis**</li>
 <li>**Supporting visualizations and key findings**</li>
-<li>**Your top high-level content recommendations based on your analysis**</li>
+<li>**My top high-level content recommendations based on mine analysis**</li>
 </ol>
 
+Annotate: This is a small project made by one person. Problem and looking for trends is not so hard to glimpse. This is a descriptive analysis the easiest from all of four.
+Wish to make projects include more advanced analysis later on.
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+Without further ado let's move on to the next stage - Prepare
+
+
+
+
 
 
