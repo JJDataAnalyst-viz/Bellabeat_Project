@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*SjEGKrjDp7skk4URhzW5Nw.png)
 
-#### Annotate If  you want open this as HTML report pls use copy path and then paste it in https://htmlpreview.github.io/
+#### Annotate If  you want open this as HTML report pls use copy permalink from file Stage_1_Ask.html and then paste it in https://htmlpreview.github.io/
 #### Notes created in R Markdown
 
 
