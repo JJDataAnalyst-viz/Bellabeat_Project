@@ -2,29 +2,37 @@
 title: "Stage_6_Act"
 author: "Jakub Jędrych"
 date: "2024-04-11"
-output: html_document
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+# Bellabeat Case Study Conclusion and Recommendations
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## Conclusion
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Bellabeat, founded with a mission to empower women through health and habit insights, can leverage the analysis of FitBit Fitness data to enhance its marketing strategy.
 
-```{r cars}
-summary(cars)
-```
+## Insights and Recommendations
 
-## Including Plots
+### Target Audience
+Bellabeat's primary audience consists of young and adult women with full-time jobs who engage in light activity to maintain their health. Continuous trend analysis within this demographic is crucial for effective marketing.
 
-You can also embed plots, for example:
+### App Recommendations
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+- **Daily Notifications:** Implement notifications encouraging users to achieve a minimum of 8,000 steps daily, emphasizing health benefits. Similarly, provide sleep notifications to aid users in maintaining optimal sleep patterns.
+- **Personalized Recommendations:** Offer personalized suggestions based on user goals, such as weight loss, by recommending low-calorie food options.
+- **Reward System:** Establish a reward system within the app based on daily activity levels, providing incentives for consistent engagement, possibly through discounts on Bellabeat products.
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+### Online Campaign Strategy
+Position the Bellabeat app as a holistic wellness guide for women to balance personal, professional, and health commitments. Emphasize education and motivation through daily recommendations.
+
+## Additional Considerations
+
+- **Data Expansion:** Consider incorporating additional data sources, such as tracking data from Bellabeat's devices, to enrich the analysis.
+- **User Interface and Community:** Enhance the app's user interface and incorporate community features to foster user engagement and interaction.
+- **Wearable Devices Promotion:** Encourage users to adopt Bellabeat's wearable devices by highlighting technology quality, health safety, and data protection.
+
+These recommendations aim to optimize Bellabeat's approach to engaging its target audience while reinforcing its brand identity as a holistic wellness companion. By implementing these strategies, Bellabeat can strengthen its position in the health and wellness market while fostering a loyal user base.
